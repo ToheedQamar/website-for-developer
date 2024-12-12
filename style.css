@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    margin-top: 5px;
+    background-color: cornflowerblue;
+    height: 40px;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    top: 0px;
+    position: sticky;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.actions .sign-in {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.actions .free-trial {
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.actions .free-trial:hover {
+    background-color: gold;
+}
+
+
+
+
+
+.nav-links .dropdown {
+    position: relative;
+}
+
+.nav-links .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: gold;
+    border-radius: 4px;
+    padding: 10px 0;
+   
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links .dropdown-menu li {
+    margin: 0;
+    padding: 5px 20px;
+}
+
+.nav-links .dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 14px;
+}
+
+.nav-links .dropdown-menu li a:hover {
+    color:white;
+}
+
+
+.nav-links .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.demo1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.demo{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    text-align: center;
+    margin-top: 55px;
+
+}
+.btn1{
+    padding-right: 90px;
+    padding: 15px 35px;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: large;
+    border-radius: 7px;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-right: 94px;
+}
+.btn2{
+    padding: 15px 35px;
+    text-decoration: none;
+    border: 1px solid blue;
+    font-size: large;
+    border-radius: 7px;
+}
+.btn2:hover{
+    color: black;
+    background-color: gold;
+    border: none;
+}
+.btn1:hover{
+    color: gold;
+    background-color: black;
+}
+.test1{
+    margin-top: 55px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .sidebar {
+    width: 25%;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    
+  }
+
+  .sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+    margin-top: 50px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sidebar li {
+    margin: 10px 0;
+  }
+
+  .content {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .icon {
+    font-size: 32px;
+    color: #546de5;
+    margin-bottom: 10px;
+  }
+.container:hover{
+    background-color: gold;
+    color: black;
+}
+   .card:hover{
+    background-color: aqua;
+}
+.sidebar:hover{
+    background-color: aqua;
+}
+h5{
+    text-align: center;
+    font-size: x-large;
+}
+.logos{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+h6{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    gap: 10px;
+}
+.o1{
+    text-align: center;
+    font-size: 35px;
+}
+.w1{
+    text-align: center;
+    padding-top: 10px;  
+}
+.w2{
+    text-align: center;
+    padding-top: 5px;
+}
+.th3{
+    border: 2px solid black;
+    height: 200px;
+    border-radius: 6px;
+    background-color: grey;
+    border: none;
+}
+.th3:hover{
+    background-color: green;
+    color: white;
+}
+.long1{
+    height: 300px;
+    width: 1010px;
+    background-color: rgb(77, 77, 207);
+}
+pre{
+    text-align: center;
+    padding-top: 120px;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.long1:hover{
+    background-color: gold;
+}
+pre:hover{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
